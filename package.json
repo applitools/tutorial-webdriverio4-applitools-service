@@ -1,0 +1,26 @@
+{
+  "name": "tutorial-webdriverio4-applitools-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applitools/tutorial-webdriverio4-applitools-service.git"
+  },
+  "author": "Applitools team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/applitools/tutorial-webdriverio4-applitools-service/issues"
+  },
+  "homepage": "https://github.com/applitools/tutorial-webdriverio4-applitools-service#readme",
+  "dependencies": {
+    "@applitools/eyes-webdriverio4-service": "^1.0.0"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12"
+  }
+}
