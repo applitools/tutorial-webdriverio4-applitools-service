@@ -7,11 +7,7 @@ describe('Test app', () => {
   });
 
   it('First test', () => {
-    try {
-      browser.eyesCheckWindow('Login Window test');
-    } catch (e) {
-      console.error(e);
-    }
+    browser.eyesCheckWindow('Login Window test');
   });
 
 });
