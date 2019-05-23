@@ -133,7 +133,7 @@ exports.config = {
     ui: 'bdd'
   },
   eyes: {
-    apiKey: '97ELuwdIiAilbeumIilysV8yY24tygCeRFFTYEBO7EfE110',
+    apiKey: process.env.APPLITOOLS_API_KEY,
   },
   //
   // =====
